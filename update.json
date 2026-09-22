@@ -1,12 +1,12 @@
 {
-    "versionCode":  1,
-    "versionName":  "1.0",
-    "changelog":  "1. App 更名为「雨陌工具箱」，换了新图标；工具箱内保留「波导助手」，原「飞书应用」更名为「计算练习器」；2. 修复更新总是失败：更新请求以前被绑到了没有外网的随身WiFi上，现在改走手机自己的网络（优先能上网的WiFi，其次4G）；3. 更新明显变快：不再4个源抢同一条带宽下同一个包，改成先测速选源再单流下载；4. 支持断点续传：下到一半断网或被杀，再点一次接着下；5. 修复工具箱里内嵌网页打不开、一点就跳浏览器的问题；6. 修复坚果云备份上传失败的问题；7. 版本号重置为 v1.0",
-    "md5":  "fb67c43ed30e8d27c9a9dd03743dc9c1",
+    "versionCode":  2,
+    "versionName":  "1.1",
+    "changelog":  "1. 工具箱卡片改版：波导助手整卡展示原logo、计算练习器换用新插画，卡片大小与图片一致；2. 检查更新新增可折叠更新日志，点开查看本次更新内容；3. 更新下载延续提速优化：测速选源、断点续传、失败自动换源",
+    "md5":  "93c2d06bf5736901e2abc7be59d338c2",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/bodao-WIFI@main/yumo-v1.0.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/bodao-WIFI@main/yumo-v1.0.apk",
-                 "https://ghfast.top/https://github.com/f6812/bodao-WIFI/releases/download/v1.0/yumo-v1.0.apk",
-                 "https://github.com/f6812/bodao-WIFI/releases/download/v1.0/yumo-v1.0.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.1.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.1.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.1/yumo-v1.1.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.1/yumo-v1.1.apk"
              ]
 }
