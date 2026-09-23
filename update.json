@@ -1,12 +1,12 @@
 {
-    "versionCode":  5,
-    "versionName":  "1.4",
-    "changelog":  "1. 修复检查更新结果时新时旧：update.json 拉取加时间戳绕开 CDN 缓存，多源并发改为取 versionCode 最大者，旧缓存镜像永远赢不了；2. 修复更新后无法安装：授权页回来自动续装失败不再静默（pendingInstall 保留可重试），「继续安装」按钮改为直接调安装器而不是重新检查更新，页面切回来自动恢复待安装状态",
-    "md5":  "0b90853da641ba324fe8e03f81729d52",
+    "versionCode":  6,
+    "versionName":  "1.5",
+    "changelog":  "1. 工具箱一行4个统一图标：新增运行日志、背景图两张卡片（与计算器同款风格）；2. 日志功能从波导助手设置迁到工具箱，记录整个APP日志，可看近况可导出；3. 背景图设置迁到工具箱，选完立即生效，与监控页共用；4. 整点推送改为主端专属，辅端不再推送；5. 安装改会话式修复授权后不自动安装",
+    "md5":  "48b64e0c821bfd6168dd6e8b71a9a671",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.4.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.4.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.4/yumo-v1.4.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.4/yumo-v1.4.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.5.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.5.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.5/yumo-v1.5.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.5/yumo-v1.5.apk"
              ]
 }
