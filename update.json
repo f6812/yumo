@@ -1,12 +1,12 @@
 {
-    "versionCode":  8,
-    "versionName":  "1.6.1-beta",
-    "changelog":  "修复凌晨采样与推送失效：1. APP内更新后系统清空全部闹钟→新增MY_PACKAGE_REPLACED立即重排；2. 新增15分钟心跳闹钟自愈，任何掉链≤15分钟恢复；3. 辅端也排闹钟(干活前才按角色跳过)，误设角色不再静默死亡；4. 小组件onUpdate顺手重排闹钟",
-    "md5":  "d8825fe8837ae9610e6812c6a9f7925a",
+    "versionCode":  9,
+    "versionName":  "1.6.2-beta",
+    "changelog":  "1. 更新日志常驻：changelog缓存到本地，进APP即可看，无需先检查更新；自动检查也刷新日志缓存；2. 推送全家桶主端专属：辅端隐藏推送设置行，原生sendTest/sendHourly双拦截",
+    "md5":  "cc4a69e0134c5110ec53a1f0bc7b0e18",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.1-beta.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.1-beta.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.6.1-beta/yumo-v1.6.1-beta.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.6.1-beta/yumo-v1.6.1-beta.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.2-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.2-beta.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.6.2-beta/yumo-v1.6.2-beta.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.6.2-beta/yumo-v1.6.2-beta.apk"
              ]
 }
