@@ -1,12 +1,12 @@
 {
-    "versionCode":  7,
-    "versionName":  "1.6",
-    "changelog":  "v1.6 正式版：1. 工具箱改版：一行4个工具图标，底部「设置与维护」抽屉收纳运行日志/背景图/检查更新/更新日志(2×2)；2. 日志与背景图设置迁到工具箱，日志记录整个APP，可选导出；3. 修复监控页与工具箱顶部大片空余、图标大小不一；4. 修复检查更新忽新忽旧(多源择优)与授权后不自动安装(会话式安装+回执续装)；5. 下载慢自动换源接力；6. 进入APP自动检查更新并弹窗提醒；7. 整点推送改为主端专属",
-    "md5":  "a41d7b74ab011f89951230a90a43b681",
+    "versionCode":  8,
+    "versionName":  "1.6.1-beta",
+    "changelog":  "修复凌晨采样与推送失效：1. APP内更新后系统清空全部闹钟→新增MY_PACKAGE_REPLACED立即重排；2. 新增15分钟心跳闹钟自愈，任何掉链≤15分钟恢复；3. 辅端也排闹钟(干活前才按角色跳过)，误设角色不再静默死亡；4. 小组件onUpdate顺手重排闹钟",
+    "md5":  "d8825fe8837ae9610e6812c6a9f7925a",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.6/yumo-v1.6.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.6/yumo-v1.6.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.1-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.1-beta.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.6.1-beta/yumo-v1.6.1-beta.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.6.1-beta/yumo-v1.6.1-beta.apk"
              ]
 }
