@@ -1,12 +1,12 @@
 {
-    "versionCode":  9,
-    "versionName":  "1.6.2-beta",
-    "changelog":  "1. 更新日志常驻：changelog缓存到本地，进APP即可看，无需先检查更新；自动检查也刷新日志缓存；2. 推送全家桶主端专属：辅端隐藏推送设置行，原生sendTest/sendHourly双拦截",
-    "md5":  "cc4a69e0134c5110ec53a1f0bc7b0e18",
+    "versionCode":  11,
+    "versionName":  "1.7",
+    "changelog":  "1. 整点推送修复：整点闹钟升级为系统级闹钟，灭屏Doze也准点（此前会被推迟到亮屏才触发）；2. 防顺延：开APP/心跳重排不再顶掉尚未触发的整点闹钟；3. 迟到采样跳过：凌晨兜底闹钟被拖到亮屏才触发时不再产出假样本；4. 数据统计修复：隔夜冻结后首采时零点基准不再被护栏误杀，修复当日0点至首采时段用量漏记（如9-26漏记9.9GB）；5. 设备采样加网关校验，未连设备WiFi时日志明示原因；6. 新增冻结检测：整夜无广播送达时日志提示锁定后台/关闭省电限制",
+    "md5":  "0aefc614e6d9af5270a0e92927fa7fa3",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.2-beta.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.6.2-beta.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.6.2-beta/yumo-v1.6.2-beta.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.6.2-beta/yumo-v1.6.2-beta.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.7.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.7.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.7/yumo-v1.7.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.7/yumo-v1.7.apk"
              ]
 }
