@@ -1,12 +1,12 @@
 {
-    "versionCode":  11,
-    "versionName":  "1.7",
-    "changelog":  "1. 整点推送修复：整点闹钟升级为系统级闹钟，灭屏Doze也准点（此前会被推迟到亮屏才触发）；2. 防顺延：开APP/心跳重排不再顶掉尚未触发的整点闹钟；3. 迟到采样跳过：凌晨兜底闹钟被拖到亮屏才触发时不再产出假样本；4. 数据统计修复：隔夜冻结后首采时零点基准不再被护栏误杀，修复当日0点至首采时段用量漏记（如9-26漏记9.9GB）；5. 设备采样加网关校验，未连设备WiFi时日志明示原因；6. 新增冻结检测：整夜无广播送达时日志提示锁定后台/关闭省电限制",
-    "md5":  "0aefc614e6d9af5270a0e92927fa7fa3",
+    "versionCode":  13,
+    "versionName":  "1.8",
+    "changelog":  "1. 修复今日用量日内冻结：择源改为设备源优先（实时），运营商平台源仅兜底——此前整天误选数小时才更新的平台数据；2. 修复云端备份列表不显示的问题，现在可手动选择云端任意一天的历史备份一键恢复；3. 重装/清数据后主端自动从云端「最新」备份恢复统计，不再从零开始；4. 空备份护栏：本地无统计数据时跳过备份，防止空数据覆盖云端历史；5. 恢复备份后面板状态自动刷新",
+    "md5":  "ce21a27aadd277ca6422a085acc8456b",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.7.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.7.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.7/yumo-v1.7.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.7/yumo-v1.7.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8/yumo-v1.8.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.8/yumo-v1.8.apk"
              ]
 }
