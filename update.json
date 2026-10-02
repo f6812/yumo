@@ -1,12 +1,12 @@
 {
-    "versionCode":  15,
-    "versionName":  "1.8.2-beta",
-    "changelog":  "1. 新增「倒计时」工具：工具箱计算器旁边的秒表卡片，自定义时/分/秒+快捷加时，开始/暂停/重置，到点蜂鸣+震动提醒；2. 预设记忆：设好的时长可存为预设（可命名），随时「使用」重复利用或「删除」，重启 APP 不丢；3. 计时中退出 APP 再进来，计时继续不中断",
-    "md5":  "6e5cbdafa07df5b9b66d72c74bdf8ea4",
+    "versionCode":  17,
+    "versionName":  "1.8.4-beta",
+    "changelog":  "1. 倒计时「重置」改为归零：点击后大屏显示 00:00（原来只停表，时长还留在输入框里，看起来没重置）",
+    "md5":  "23414809c6565ea8a3766a6a3e070215",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.2-beta.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.2-beta.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.2-beta/yumo-v1.8.2-beta.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.8.2-beta/yumo-v1.8.2-beta.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk"
              ]
 }
