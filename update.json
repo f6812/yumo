@@ -1,12 +1,12 @@
 {
-    "versionCode":  13,
-    "versionName":  "1.8",
-    "changelog":  "1. 修复今日用量日内冻结：择源改为设备源优先（实时），运营商平台源仅兜底——此前整天误选数小时才更新的平台数据；2. 修复云端备份列表不显示的问题，现在可手动选择云端任意一天的历史备份一键恢复；3. 重装/清数据后主端自动从云端「最新」备份恢复统计，不再从零开始；4. 空备份护栏：本地无统计数据时跳过备份，防止空数据覆盖云端历史；5. 恢复备份后面板状态自动刷新",
-    "md5":  "ce21a27aadd277ca6422a085acc8456b",
+    "versionCode":  15,
+    "versionName":  "1.8.2-beta",
+    "changelog":  "1. 新增「倒计时」工具：工具箱计算器旁边的秒表卡片，自定义时/分/秒+快捷加时，开始/暂停/重置，到点蜂鸣+震动提醒；2. 预设记忆：设好的时长可存为预设（可命名），随时「使用」重复利用或「删除」，重启 APP 不丢；3. 计时中退出 APP 再进来，计时继续不中断",
+    "md5":  "6e5cbdafa07df5b9b66d72c74bdf8ea4",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.apk",
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8/yumo-v1.8.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.8/yumo-v1.8.apk"
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.2-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.2-beta.apk",
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.2-beta/yumo-v1.8.2-beta.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.8.2-beta/yumo-v1.8.2-beta.apk"
              ]
 }
