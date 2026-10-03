@@ -4,9 +4,9 @@
     "changelog":  "1. 倒计时「重置」改为归零：点击后大屏显示 00:00（原来只停表，时长还留在输入框里，看起来没重置）",
     "md5":  "23414809c6565ea8a3766a6a3e070215",
     "urls":  [
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk",
                  "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk"
+                 "https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk",
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk"
              ]
 }
