@@ -1,12 +1,12 @@
 {
-    "versionCode":  17,
-    "versionName":  "1.8.4-beta",
-    "changelog":  "1. 倒计时「重置」改为归零：点击后大屏显示 00:00（原来只停表，时长还留在输入框里，看起来没重置）",
-    "md5":  "23414809c6565ea8a3766a6a3e070215",
+    "versionCode":  19,
+    "versionName":  "1.8.6-beta",
+    "changelog":  "倒计时到点提醒去掉蜂鸣声，只保留震动（3次，每次2秒间隔5秒）",
+    "md5":  "261fa7880d9654ede33d826612aa9ba5",
     "urls":  [
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.8.4-beta/yumo-v1.8.4-beta.apk",
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.4-beta.apk"
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.6-beta/yumo-v1.8.6-beta.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.8.6-beta/yumo-v1.8.6-beta.apk",
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.6-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.6-beta.apk"
              ]
 }
