@@ -1,12 +1,12 @@
 {
-    "versionCode":  19,
-    "versionName":  "1.8.6-beta",
-    "changelog":  "倒计时到点提醒去掉蜂鸣声，只保留震动（3次，每次2秒间隔5秒）",
-    "md5":  "261fa7880d9654ede33d826612aa9ba5",
+    "versionCode":  20,
+    "versionName":  "1.8.7-beta",
+    "changelog":  "倒计时全新改版：计时中进入全屏考试钟弹窗（大环+特大数字+结束时刻），到点全屏提醒；修复浅色主题下弹窗面板文字看不清的问题；修复倒计时数字可能不走的问题（原生失联自动切换页面计时兜底）；设置面板改为预设胶囊一键开计时，新增±10秒微调",
+    "md5":  "75cb579e8b849e28f4951fd5aa179adc",
     "urls":  [
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.6-beta/yumo-v1.8.6-beta.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.8.6-beta/yumo-v1.8.6-beta.apk",
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.6-beta.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.6-beta.apk"
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.7-beta/yumo-v1.8.7-beta.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.8.7-beta/yumo-v1.8.7-beta.apk",
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.7-beta.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.7-beta.apk"
              ]
 }
