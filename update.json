@@ -1,12 +1,12 @@
 {
-    "versionCode":  22,
-    "versionName":  "1.9",
-    "changelog":  "雨陌工具箱拆分回归：本应用恢复为「波导助手」独立APP（入口直进监控页，运行日志/检查更新/更新日志/背景图回到设置面板）；倒计时功能移除；计算练习器拆分为独立APP「计算练习器」，需要到 Releases 单独下载安装（calc-v1.0.apk）。数据与备份自动继承，无需迁移",
-    "md5":  "1223b4f7a062a89660ceb748b56b7f58",
+    "versionCode":  23,
+    "versionName":  "1.9.1",
+    "changelog":  "保活一揽子：新增系统电池优化白名单（首次使用自动弹授权框，设置面板可随时查看/重开），配合前台服务+系统级闹钟三重保活，划卡清理后整点采集与推送不再断；设备控制新增「设备关机」；清理后台后无需手动打开APP",
+    "md5":  "b29179090e191682a355b49c5615c3a5",
     "urls":  [
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9/bodao-v1.9.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.9/bodao-v1.9.apk",
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.apk"
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.1/bodao-v1.9.1.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.9.1/bodao-v1.9.1.apk",
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.1.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.1.apk"
              ]
 }
