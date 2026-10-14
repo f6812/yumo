@@ -1,12 +1,12 @@
 {
-    "versionCode": 21,
-    "versionName": "1.8.8-beta",
-    "changelog": "修复到点提醒只震动一次：改为逐次单发震动3次（每次2秒间隔5秒），不再被系统截断；修复通知「停止提醒」按钮无效：点击现在会立即停止震动并撤掉提醒通知；点通知正文可直接打开APP查看全屏时间到弹窗",
-    "md5": "8d1c680809a26258d9ce0f10cce44b15",
-    "urls": [
-        "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.8.8-beta/yumo-v1.8.8-beta.apk",
-        "https://github.com/f6812/yumo/releases/download/v1.8.8-beta/yumo-v1.8.8-beta.apk",
-        "https://fastly.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.8-beta.apk",
-        "https://cdn.jsdelivr.net/gh/f6812/yumo@main/yumo-v1.8.8-beta.apk"
-    ]
+    "versionCode":  22,
+    "versionName":  "1.9",
+    "changelog":  "雨陌工具箱拆分回归：本应用恢复为「波导助手」独立APP（入口直进监控页，运行日志/检查更新/更新日志/背景图回到设置面板）；倒计时功能移除；计算练习器拆分为独立APP「计算练习器」，需要到 Releases 单独下载安装（calc-v1.0.apk）。数据与备份自动继承，无需迁移",
+    "md5":  "1223b4f7a062a89660ceb748b56b7f58",
+    "urls":  [
+                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9/bodao-v1.9.apk",
+                 "https://github.com/f6812/yumo/releases/download/v1.9/bodao-v1.9.apk",
+                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.apk",
+                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.apk"
+             ]
 }
