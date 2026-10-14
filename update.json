@@ -1,12 +1,7 @@
 {
-    "versionCode":  23,
-    "versionName":  "1.9.1",
-    "changelog":  "保活一揽子：新增系统电池优化白名单（首次使用自动弹授权框，设置面板可随时查看/重开），配合前台服务+系统级闹钟三重保活，划卡清理后整点采集与推送不再断；设备控制新增「设备关机」；清理后台后无需手动打开APP",
-    "md5":  "b29179090e191682a355b49c5615c3a5",
-    "urls":  [
-                 "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.1/bodao-v1.9.1.apk",
-                 "https://github.com/f6812/yumo/releases/download/v1.9.1/bodao-v1.9.1.apk",
-                 "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.1.apk",
-                 "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.1.apk"
-             ]
+    "versionCode":  24,
+    "versionName":  "1.9.2",
+    "changelog":  "新增运营商分摊统计：今日卡与整点推送显示 移动/电信/联通 各自的今日用量与累计（按设备当前注网卡自动归属，与今日用量同源同精度，无需任何配置）；运营商切换时写入运行日志",
+    "md5":  "46449a40a41ebd3eb45b79a8df1712b9",
+    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.2/bodao-v1.9.2.apk", "https://github.com/f6812/yumo/releases/download/v1.9.2/bodao-v1.9.2.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.2.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.2.apk"]
 }
