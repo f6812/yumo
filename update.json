@@ -1,7 +1,7 @@
 {
-    "versionCode":  24,
-    "versionName":  "1.9.2",
-    "changelog":  "新增运营商分摊统计：今日卡与整点推送显示 移动/电信/联通 各自的今日用量与累计（按设备当前注网卡自动归属，与今日用量同源同精度，无需任何配置）；运营商切换时写入运行日志",
-    "md5":  "46449a40a41ebd3eb45b79a8df1712b9",
-    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.2/bodao-v1.9.2.apk", "https://github.com/f6812/yumo/releases/download/v1.9.2/bodao-v1.9.2.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.2.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.2.apk"]
+    "versionCode":  25,
+    "versionName":  "1.9.3",
+    "changelog":  "修复数据记录：隔夜/隔天打开APP时零点基准内插被误杀导致当日用量从打开时刻才起算（日志实锤），现按内插锚点距离判定，跨天打开也能还原全天用量；保活补救：凌晨采样若被系统杀掉未触发，打开APP自动补采+补推；新增「自启动与省电策略」直达入口（MIUI 需允许自启动才保得住后台）；恢复拆分前的原版图标",
+    "md5":  "b4fb371822e7bce86ffe225e82a73abc",
+    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.3/bodao-v1.9.3.apk", "https://github.com/f6812/yumo/releases/download/v1.9.3/bodao-v1.9.3.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.3.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.3.apk"]
 }
