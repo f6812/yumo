@@ -1,7 +1,7 @@
 {
-    "versionCode":  26,
-    "versionName":  "1.9.4",
-    "changelog":  "修复今日用量为 0：手机没连设备热点时设备计数器采不到、平台源又因智能选网卡变不再增长 → 今日显示 0。现新增平台远程兜底：任何网络下都能远程读取设备计数器持续记账（整点/凌晨采样与页面刷新三条链全部接入）；整点推送改为有数据就推真实用量（标注来源），两源全无才提示网络未连接",
-    "md5":  "25f5ecd2e89dfab944981482d55e24b3",
-    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.4/bodao-v1.9.4.apk", "https://github.com/f6812/yumo/releases/download/v1.9.4/bodao-v1.9.4.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.4.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.4.apk"]
+    "versionCode":  27,
+    "versionName":  "1.9.5",
+    "changelog":  "移除运营商分摊统计（数据为本地估算、云端无分运营商真值，判定无存在必要）；设置面板瘦身：保活/采集/推送等 9 个低频项收敛进「后台与推送」二级面板，主面板只留数据备份、运营商切换、设备控制与高频入口",
+    "md5":  "e5f21deba5c9832c2125ae4b6ea1ca02",
+    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.5/bodao-v1.9.5.apk", "https://github.com/f6812/yumo/releases/download/v1.9.5/bodao-v1.9.5.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.5.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.5.apk"]
 }
