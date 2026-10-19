@@ -1,7 +1,7 @@
 {
-    "versionCode":  25,
-    "versionName":  "1.9.3",
-    "changelog":  "修复数据记录：隔夜/隔天打开APP时零点基准内插被误杀导致当日用量从打开时刻才起算（日志实锤），现按内插锚点距离判定，跨天打开也能还原全天用量；保活补救：凌晨采样若被系统杀掉未触发，打开APP自动补采+补推；新增「自启动与省电策略」直达入口（MIUI 需允许自启动才保得住后台）；恢复拆分前的原版图标",
-    "md5":  "b4fb371822e7bce86ffe225e82a73abc",
-    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.3/bodao-v1.9.3.apk", "https://github.com/f6812/yumo/releases/download/v1.9.3/bodao-v1.9.3.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.3.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.3.apk"]
+    "versionCode":  26,
+    "versionName":  "1.9.4",
+    "changelog":  "修复今日用量为 0：手机没连设备热点时设备计数器采不到、平台源又因智能选网卡变不再增长 → 今日显示 0。现新增平台远程兜底：任何网络下都能远程读取设备计数器持续记账（整点/凌晨采样与页面刷新三条链全部接入）；整点推送改为有数据就推真实用量（标注来源），两源全无才提示网络未连接",
+    "md5":  "25f5ecd2e89dfab944981482d55e24b3",
+    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.4/bodao-v1.9.4.apk", "https://github.com/f6812/yumo/releases/download/v1.9.4/bodao-v1.9.4.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.4.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.4.apk"]
 }
