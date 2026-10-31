@@ -1,7 +1,7 @@
 {
-    "versionCode":  30,
-    "versionName":  "1.9.8",
-    "changelog":  "修复检查更新一直提示已是最新：jsdelivr 对 update.json 的旧缓存顽固且绕不过，改为 ghfast 源优先 + 全部源收齐才择优（高版本不会被慢源截断）。并含 v1.9.6~v1.9.7 全部内容：连接的终端管理（设备信息+终端列表+探测式断网）；月度恢复出厂未连热点时自动补做并推送提醒；设备远程下发传参修正",
-    "md5":  "f2927b81a703eb4cc4c81e9c85fe92ef",
-    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.8/bodao-v1.9.8.apk", "https://github.com/f6812/yumo/releases/download/v1.9.8/bodao-v1.9.8.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.8.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.8.apk"]
+    "versionCode":  31,
+    "versionName":  "1.9.9",
+    "changelog":  "修复连接的终端显示 0 台（接口正常但键名式解析没匹配上设备数据结构）：改为值层面识别（IP/MAC 形状采信，不依赖键名）+ 原文兜底展示 + 设备自报在线数显示；终端接口原文写入日志用于后续精准解析与禁用功能",
+    "md5":  "6920c339339c33be9f355e3fef6ae61b",
+    "urls":  ["https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.9/bodao-v1.9.9.apk", "https://github.com/f6812/yumo/releases/download/v1.9.9/bodao-v1.9.9.apk", "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.9.apk", "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.9.apk"]
 }
