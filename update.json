@@ -1,12 +1,12 @@
 {
-    "versionCode": 37,
-    "versionName": "1.9.15",
-    "changelog": "取消主/辅端区别与本地备份，改为纯云端备份并自动恢复最新版；数据 3 秒刷新、刷新自动云端备份；取消后台保活与用量推送；保留凌晨 0 点自动采集与每月 1 号默认恢复出厂；取消管理员模式",
-    "md5": "241df521b538160bfe39eb91a18dd9b1",
+    "versionCode": 39,
+    "versionName": "1.9.17",
+    "changelog": "1. 系统返回键优先关闭设置/备份/终端等弹窗，不再直接退出 APP；2. 平板横屏布局重排，分栏更均匀；3. 云端备份新增「测试云端连接」，修复 WebDAV 409（自动创建集合并支持回退写集合根），内置最新账号密码",
+    "md5": "146e05d762e37525add86ca7e2da49c1",
     "urls": [
-        "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.15/bodao-v1.9.15.apk",
-        "https://github.com/f6812/yumo/releases/download/v1.9.15/bodao-v1.9.15.apk",
-        "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.15.apk",
-        "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.15.apk"
+        "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.17/bodao-v1.9.17.apk",
+        "https://github.com/f6812/yumo/releases/download/v1.9.17/bodao-v1.9.17.apk",
+        "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.17.apk",
+        "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.17.apk"
     ]
 }
