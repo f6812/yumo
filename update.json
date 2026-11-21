@@ -1,12 +1,12 @@
 {
-    "versionCode": 36,
-    "versionName": "1.9.14",
-    "changelog": "更新检测新增 GitHub API 实时源（无 CDN 缓存），彻底避免 jsdelivr 旧缓存导致的“检测不到新版本”；其余为 v1.9.13 品牌统一（应用名/备份目录/注释）与终端只读查看",
-    "md5": "c4dc55f5bbb2cac035eba192987cffc3",
+    "versionCode": 37,
+    "versionName": "1.9.15",
+    "changelog": "取消主/辅端区别与本地备份，改为纯云端备份并自动恢复最新版；数据 3 秒刷新、刷新自动云端备份；取消后台保活与用量推送；保留凌晨 0 点自动采集与每月 1 号默认恢复出厂；取消管理员模式",
+    "md5": "241df521b538160bfe39eb91a18dd9b1",
     "urls": [
-        "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.14/bodao-v1.9.14.apk",
-        "https://github.com/f6812/yumo/releases/download/v1.9.14/bodao-v1.9.14.apk",
-        "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.14.apk",
-        "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.14.apk"
+        "https://ghfast.top/https://github.com/f6812/yumo/releases/download/v1.9.15/bodao-v1.9.15.apk",
+        "https://github.com/f6812/yumo/releases/download/v1.9.15/bodao-v1.9.15.apk",
+        "https://fastly.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.15.apk",
+        "https://cdn.jsdelivr.net/gh/f6812/yumo@main/bodao-v1.9.15.apk"
     ]
 }
